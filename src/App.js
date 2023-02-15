@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import ResultPage from "./pages/ResultPage";
+import WarningPage from "./pages/WarningPage";
 
 function App({ props }) {
   return (
@@ -14,6 +15,7 @@ function App({ props }) {
     <Routes>
       <Route path="/" element={<LandingPage />}></Route>
       <Route path="/result/:finalType" element={<ResultPage />}></Route>
+      <Route path="/*" element={<WarningPage />}></Route>
     </Routes>
   );
 }
