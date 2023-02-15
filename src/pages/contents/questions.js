@@ -78,7 +78,7 @@ const questions = [
     ],
   },
   {
-    question: "Q7.<br/>동료가 버그를 발견하고 우울한다면 나는",
+    question: "Q7.<br/>동료가 버그를 발견하고 우울한다면",
     answers: [
       {
         text: "✔ 문제를 확인하고 조언해준다",

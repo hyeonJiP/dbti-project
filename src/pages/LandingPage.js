@@ -9,7 +9,7 @@ import { collection, getDoc, doc, setDoc } from "firebase/firestore";
 const Wrapper = styled.div`
   display: ${(props) => (props.isShow === true ? "flex" : "none")};
   width: 100%;
-  background-image: white;
+  background-color: white;
   flex-direction: column;
   align-items: center;
 `;
@@ -57,9 +57,10 @@ const Intro = styled.div`
 `;
 
 const StartImg = styled.div`
-  width: 45rem;
+  width: 40rem;
   height: 40rem;
   background-image: url("../result-image/mbti.gif");
+  background-size: 50% 50%;
 `;
 
 const Title = styled.div`
